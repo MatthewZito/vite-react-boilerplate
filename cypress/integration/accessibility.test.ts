@@ -1,6 +1,6 @@
 import type { Rule } from 'axe-core';
 
-const testUrls = ['/', '/join', '/login'];
+const testUrls = ['/'];
 
 const initialize = (url) => {
 	cy.visit(url);
