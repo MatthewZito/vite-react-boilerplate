@@ -1,9 +1,9 @@
-import { useRoutes } from 'react-router-dom';
+import { useRoutes } from 'react-router-dom'
 
-import '@/styles/index.css';
+import '@/styles/index.css'
 
-import Routes from '@/router';
+import Routes from '@/router'
 
 export default function App() {
-	return useRoutes(Routes());
+  return useRoutes(Routes())
 }

@@ -2,5 +2,17 @@
 	"extends": [
 		"@magister_zito",
 		"prettier"
+	],
+
+	"overrides": [
+		{
+			"files": ["**/*.ts"],
+			"parserOptions": {
+				"project": [
+          "./tsconfig.json",
+          "./cypress/tsconfig.json"
+        ]
+			}
+		}
 	]
 }
