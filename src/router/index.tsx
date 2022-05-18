@@ -1,8 +1,14 @@
 import React from 'react'
-import { Navigate } from 'react-router-dom'
+
+import { Layout } from '@/components/Layout'
 
 import type { RouteObject } from 'react-router-dom'
 
 export default function Routes(): RouteObject[] {
-  return []
+  return [
+    {
+      element: <Layout />,
+      path: '*',
+    },
+  ]
 }
